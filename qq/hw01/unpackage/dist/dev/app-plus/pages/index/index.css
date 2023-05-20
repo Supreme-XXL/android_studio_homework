@@ -1,0 +1,80 @@
+
+.content {
+    width: 100vw;
+    height: 100vh;
+}
+.avatarWrapper {
+    height: 30vh;
+    width: 100vw;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+.avatar {
+    height: 3.125rem;
+    width: 3.125rem;
+    overflow: hidden;
+}
+.avatar .img {
+    width: 100%;
+}
+.textQQ {
+    font-size: 2.1875rem;
+}
+.form {
+    padding: 0 3.125rem;
+    margin-top: -180px;
+}
+.inputWrapper {
+    width: 100%;
+    height: 4.375rem;
+    background: #f0f0f8;
+    border-radius: 40px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin-top: 15px;
+}
+.inputWrapper .input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+.loginWrapper {
+    height: 30vh;
+    width: 100vw;
+
+    padding: 40px 110px;
+    margin-top: 15px;
+}
+.loginBtn {
+    height: 4.6875rem;
+    width: 4.6875rem;
+    background-color: #f0f0f8;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginBtn .imgright {
+    width: 50%;
+}
+.service {
+    margin-top: 30px;
+    text-align: center;
+}
+.textservice {
+    color: blue;
+}
+.accessText {
+    font-size: 12px;
+}
+.otherchoice {
+    margin-top: 60px;
+    margin-left: 50px;
+    font-size: 10px;
+    font-weight: 600;
+}
+.other {
+    margin: 0 30px;
+}

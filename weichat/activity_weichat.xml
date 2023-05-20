@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homework.WeichatActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="254dp"
+            android:background="@drawable/pretty_legs"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_weichat_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="215dp"
+            android:layout_marginLeft="200dp"
+            android:text="Someity"
+            android:textColor="@color/white_gray"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_head_001"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="190dp"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:id="@+id/iv_camera"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="360dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/camera38"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:id="@+id/iv_left38"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/left38"
+            android:scaleType="fitXY" />
+        <ImageView
+            android:id="@+id/iv_head_002"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="350dp"
+
+            android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/tv_weichat_name01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="120dp"
+            android:text="Supre_Dragon"
+            android:textColor="@color/purple_500"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_weichat_name02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:layout_marginLeft="120dp"
+            android:text="小黑子,真下头"
+            android:textColor="@color/black_100"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/iv_head_003"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="435dp"
+            android:background="@drawable/scenery"
+            android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/tv_weichat_name03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="590dp"
+            android:layout_marginLeft="120dp"
+            android:text="520分钟前"
+            android:textColor="@color/black_overlay"
+            android:textSize="18dp"
+            />
+        <ImageView
+            android:id="@+id/iv_extend_001"
+            android:layout_width="40dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="590dp"
+            android:background="#90DFDCDC"
+            android:scaleType="fitXY" />
+        <TextView
+            android:id="@+id/tv_weichat_extend01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="553dp"
+            android:layout_marginLeft="360dp"
+            android:text="."
+            android:textColor="@color/black_overlay"
+            android:textSize="50dp"
+            />
+        <TextView
+            android:id="@+id/tv_weichat_extend02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="553dp"
+            android:layout_marginLeft="373dp"
+            android:text="."
+            android:textColor="@color/black_overlay"
+            android:textSize="50dp"
+            />
+
+        <ImageView
+            android:id="@+id/iv_head_005"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="640dp"
+
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_weichat_name04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:layout_marginLeft="120dp"
+            android:text="longxiaoxiao"
+            android:textColor="@color/purple_500"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tv_weichat_name05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="680dp"
+            android:layout_marginLeft="120dp"
+            android:text="曾经沧海难为水，除却巫山不是云"
+            android:textColor="@color/black_100"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/iv_extend_002"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="625dp"
+        android:background="#90DFDCDC"
+        android:scaleType="fitXY" />
+</RelativeLayout>
